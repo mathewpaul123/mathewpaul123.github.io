@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberBlitz - Computer Science Society</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5; /* Light gray background */
+            line-height: 1.6;
+        }
+        header {
+            background-color: #800000; /* Maroon background */
+            color: #ffffff; /* White text */
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 5px solid #600000; /* Darker maroon border */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: bold;
+            animation: fadeIn 2s ease-in;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.5em;
+            animation: fadeIn 3s ease-in;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #800000; /* Maroon text */
+            margin: 0 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            color: #600000; /* Darker maroon */
+            transform: scale(1.1); /* Slight zoom effect */
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 30px;
+            background: #ffffff; /* White background */
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #800000; /* Maroon text */
+            font-size: 2.5em;
+            border-bottom: 2px solid #800000; /* Maroon border */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            animation: slideIn 1s ease-out;
+        }
+        .section p, .section ul {
+            font-size: 1.1em;
+            color: #555;
+        }
+        footer {
+            background-color: #800000; /* Maroon background */
+            color: #ffffff; /* White text */
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            max-width: 200px;
+            margin: 20px auto;
+            display: block;
+            animation: bounce 2s infinite;
+        }
+        /* Keyframe animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateX(-50%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="CyberBlitz Logo" class="logo"> <!-- Replace with your logo image URL -->
+        <h1>Welcome to CyberBlitz</h1>
+        <p>Your gateway to the world of computer science</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>CyberBlitz is a vibrant community for computer science enthusiasts and professionals. Our mission is to foster a love for technology and innovation through events, workshops, and networking opportunities. Whether you’re a student, a professional, or just passionate about tech, CyberBlitz offers something for everyone.</p>
+        </section>
+        <section id="events" class="section">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li><strong>Tech Talk: Future of AI</strong> - September 30, 2024</li>
+                <li><strong>Hackathon 2024</strong> - October 15-17, 2024</li>
+                <li><strong>Workshop: Python for Beginners</strong> - November 5, 2024</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to get involved, please reach out to us:</p>
+            <p>Email: <a href="mailto:info@cyberblitz.org">info@cyberblitz.org</a></p>
+            <p>Follow us on social media for updates:</p>
+            <p>
+                <a href="https://twitter.com/CyberBlitz" target="_blank">Twitter</a> |
+                <a href="https://facebook.com/CyberBlitz" target="_blank">Facebook</a> |
+                <a href="https://linkedin.com/company/cyberblitz" target="_blank">LinkedIn</a>
+            </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 CyberBlitz Society. All rights reserved.</p>
+    </footer>
+</body>
+</html>
